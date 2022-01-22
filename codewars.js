@@ -12,3 +12,29 @@ return str.split('').reverse().join('')
 function getChar(c){
     return String.fromCharCode(c);
 }
+// 4 return the two oldest/oldest ages within the array of ages passed in.
+function twoOldestAges(ages){
+
+}
+
+function twoOldestAges(arr){
+let res = arr.sort((a, b) => a-b);
+res = [arr[arr.length-2], arr[ arr.length-1]];
+  return res
+}
+
+// 5
+function makeUpperCase(str) {
+  return str.toUpperCase()// Code here
+}
+
+// 6 return the two oldest/oldest ages within the array of ages passed in.
+function twoOldestAges(ages){
+
+}
+
+function twoOldestAges(arr){
+let res = arr.sort((a, b) => a-b);
+res = [arr[arr.length-2], arr[ arr.length-1]];
+  return res
+}
