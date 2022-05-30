@@ -1,12 +1,4 @@
-// Define a card suit
-function defineSuit(card) {
-  if (card.includes('♣')) {
-    return 'clubs'
-  } else if (card.includes('♦')) {
-    return 'diamonds'
-  } else if (card.includes('♥')) {
-    return 'hearts'
-  } else if (card.includes('♠')) {
-    return 'spades'
-  }
-}
+// String cleaning
+function stringClean(s){
+  return  s.replace(/[0-9]/g, '')
+ }
